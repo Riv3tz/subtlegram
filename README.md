@@ -1,8 +1,8 @@
 # subtlegram
 
 Instagram, but subtle.
-For right handed people
+For right handed people.
 
 ## tested
 
-Only on android
+Only on android.
