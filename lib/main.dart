@@ -217,17 +217,26 @@ class Post extends StatelessWidget {
 
 Widget footer() {
   return Container(
-      margin: EdgeInsets.only(top: 20),
+      decoration: BoxDecoration(
+        color: Color(0xffB0B0B0),
+        boxShadow: [
+          BoxShadow(
+            blurRadius: 10.0,
+            spreadRadius: 2.0,
+          ),
+        ],
+      ),
+      // margin: EdgeInsets.only(top: 20),
       height: 50,
       width: double.infinity,
-      color: Color(0xffB0B0B0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
+          Icon(Icons.home_outlined),
+          Icon(Icons.explore_outlined),
+          Icon(Icons.add_a_photo_outlined),
           Icon(Icons.favorite_border_outlined),
-          Icon(Icons.favorite_border_outlined),
-          Icon(Icons.favorite_border_outlined),
-          Icon(Icons.favorite_border_outlined),
+          Icon(Icons.alternate_email_outlined),
         ],
       ));
 }
