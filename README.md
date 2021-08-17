@@ -1,6 +1,6 @@
 # subtlegram
 
-Instagram, but subtle
+Instagram, but subtle.
 For right handed people
 
 ## tested
